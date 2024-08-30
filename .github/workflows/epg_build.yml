@@ -1,0 +1,51 @@
+name: IPTV EPG Build
+
+on:
+  workflow_dispatch:
+  #schedule:
+    # - cron: "7 9,22 * * *"
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up php 8.3
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+
+      - name: Build
+        run: |
+          ls -la
+          pwd
+          cd ..
+          git clone https://github.com/TakcC/PHP-EPG-Docker-Server.git
+          cd PHP-EPG-Docker-Server/epg
+          ls -la
+          echo '覆盖配置文件'
+          cp /home/runner/work/epg/epg/config/config.php ./config.php
+          cp /home/runner/work/epg/epg/config/adata.db ./adata.db
+          ls -la
+          echo '开始处理epg'
+          php update.php
+          echo '处理完成'
+          ls -la
+          cp t.xml t.xml.gz /home/runner/work/epg/epg/data/
+          cp adata.db /home/runner/work/epg/epg/config
+
+      - name: Commit
+        run: |
+          cd /home/runner/work/epg/epg/
+          ls -la
+          git config --global user.name 'suzukua_bot'
+          git config --global user.email 'suzukua_bot'
+          git add .
+          git commit -am "Automated build"
+          git push
