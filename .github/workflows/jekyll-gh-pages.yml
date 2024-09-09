@@ -32,6 +32,8 @@ jobs:
           fetch-depth: 0  # fetch all
       - name: merge_main
         run: |
+          pwd
+          ls -la
           git checkout hidden -- t.xml
           git checkout hidden -- t.xml.gz
       - name: Setup Pages
