@@ -34,6 +34,7 @@ jobs:
         run: |
           pwd
           ls -la
+          git branch --all
           git checkout hidden -- t.xml
           git checkout hidden -- t.xml.gz
       - name: Setup Pages
