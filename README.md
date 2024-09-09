@@ -14,6 +14,11 @@ EPG列表，含7天回看，1天预告，每天更新两次。
 
 目前包含100套以上节目单，包含央视、卫视、成都频道等。
 
+
+[成都电信IPTV播放列表](https://m3u.zsdc.eu.org/)
+
+
+
 基于项目[TakcC](https://github.com/TakcC/PHP-EPG-Docker-Server)的项目生成。
 - 整合以下数据源
     - https://epg.erw.cc
