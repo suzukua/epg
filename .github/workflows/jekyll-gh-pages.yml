@@ -35,8 +35,7 @@ jobs:
           pwd
           ls -la
           git branch --all
-          git checkout hidden -- t.xml
-          git checkout hidden -- t.xml.gz
+          git checkout origin/hidden -- t.xml t.xml.gz
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
