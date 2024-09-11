@@ -5,11 +5,11 @@ EPG列表，含7天回看，1天预告，每天更新两次。
 
 [地址1(gz压缩)](http://epg.zsdc.eu.org/t.xml.gz): 
 
-    http://epg.zsdc.eu.org/t.xml.gz
+    https://epg.zsdc.eu.org/t.xml.gz
 
 [地址2](http://epg.zsdc.eu.org/t.xml): 
 
-    http://epg.zsdc.eu.org/t.xml
+    https://epg.zsdc.eu.org/t.xml
 
 目前包含100套以上节目单，包含央视、卫视、成都频道等。
 
