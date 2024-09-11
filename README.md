@@ -13,9 +13,9 @@ EPG列表，含7天回看，1天预告，每天更新两次。
 
 #### 更新时间：2024-09-11 13:03:00 共 123 条频道信息，现 在的EPG文件中提供今明两天节目共 35852 条
 
-[成都电信IPTV(点击直达)](https://m3u.zsdc.eu.org)，支持KODI、APTV。支持回看、时移。
+[成都电信IPTV(点击直达)](https://iptv.zsdc.eu.org)，支持KODI、APTV。支持回看、时移。
 
-    https://m3u.zsdc.eu.org
+    https://iptv.zsdc.eu.org
 
 基于项目[TakcC](https://github.com/TakcC/PHP-EPG-Docker-Server)的项目生成。
 - 整合以下数据源
