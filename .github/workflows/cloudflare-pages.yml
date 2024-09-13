@@ -18,11 +18,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
-      - name: test
-        run: |
-          cat $GITHUB_OUTPUT  
-
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
