@@ -1,0 +1,41 @@
+# Sample workflow for building and deploying a Jekyll site to Cloudflare Pages
+name: Deploy Jekyll with cloudflare Pages dependencies preinstalled
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["master"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: replace path
+        run: |
+          REPO_NAME=$(echo ${{ github.repository }} | cut -d'/' -f2)
+          echo "Repository Name: $REPO_NAME"
+          pwd
+          ls -la
+          find ./_site -type f -exec sudo sed -i 's/\/'$REPO_NAME'//g' {} \;
+          cat ./_site/index.html
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: epg
+          directory: _site
+          wranglerVersion: '3'
