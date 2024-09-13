@@ -13,9 +13,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v4
-
+        with:
+          fetch-depth: 0  # fetch all
+          ref: 'main'
+      - name: merge_main
+        run: |
+          pwd
+          ls -la
+          git branch --all
+          git checkout origin/hidden -- t.xml t.xml.gz
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build with Jekyll
