@@ -37,7 +37,7 @@ jobs:
           echo "Repository Name: $REPO_NAME"
           pwd
           ls -la
-          find ./_site -type f -exec sudo sed -i 's/\/'href=\"\/$REPO_NAME'/href=\"/g' {} \;
+          sudo sed -i 's/\/'href=\"\/$REPO_NAME'/href=\"/g' ./_site/index.html
           cat ./_site/index.html
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
