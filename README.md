@@ -17,6 +17,8 @@ EPG列表，含7天回看，1天预告，每天更新两次。
 
     https://iptv.zsdc.eu.org
 
+###### 有问题？更新不及时？[联系我](https://github.com/suzukua/epg/issues)
+
 基于项目[TakcC](https://github.com/TakcC/PHP-EPG-Docker-Server)的项目生成。
 - 整合以下数据源
     - https://epg.erw.cc
