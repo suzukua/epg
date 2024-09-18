@@ -1,7 +1,7 @@
 ### IPTV EPG / IPTV 电子节目单 
 [![构建状态](https://danzhu-01.coding.net/badges/cd-telecom-iptv/job/4743661/build.svg)](/)
 
-EPG列表，含7天回看，1天预告，每天更新两次。
+EPG列表，含7天回看，1天预告，每天更新至少两次。
 
 [地址1(gz压缩)](http://epg.zsdc.eu.org/t.xml.gz): 
 
