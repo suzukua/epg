@@ -24,3 +24,4 @@ EPG列表，含7天回看，1天预告，每天更新两次。
     - https://epg.erw.cc
     - https://epg.mxdyeah.top
     - http://epg.51zmt.top:8000
+    - https://gitee.com/Black_crow/xmlgz
