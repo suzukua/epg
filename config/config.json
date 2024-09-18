@@ -5,8 +5,8 @@
         "http://epg.51zmt.top:8000/e.xml.gz"
     ],
     "days_to_keep": 7,
-    "gen_xml": 3,
-    "include_future_only": 0,
+    "gen_xml": 1,
+    "include_future_only": 1,
     "ret_default": 1,
     "gen_list_enable": 1,
     "db_type": "sqlite",
@@ -14,23 +14,9 @@
     "end_time": "23:59",
     "interval_time": 0,
     "manage_password": "",
-    "channel_bind_epg": {
-    },
-    "channel_replacements": [
-        "-",
-        "\\s",
-        "50FPS",
-        "NewTV",
-        "SiTV",
-        "iHOT",
-        "CHC"
-    ],
+    "channel_bind_epg": [],
     "channel_mappings": {
-        "CCTV4AME": "CCTV4美洲",
         "[CCTV5plus, CCTV5PLUS]": "CCTV5+",
-        "regex:\/^CCTV[-\\s]*(\\p{Han})\/iu": "$1",
-        "regex:\/^CCTV[-\\s]*(\\d{1,2}(\\s*P(LUS)?|[K\\+])?)(?![\\s-]*(美洲|欧洲)).*\/i": "CCTV$1",
-        "[CGTN Documentary, CGTN档案, CGTN记录]": "CGTN纪录",
-        "CGTN英语": "CGTN"
+        "CCTV$1": "regex:\/^CCTV[-\\s]*(\\d{1,2}(\\s*P(LUS)?|[K\\+])?)(?![\\s-]*(美洲|欧洲)).*\/i"
     }
 }
