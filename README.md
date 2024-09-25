@@ -23,3 +23,4 @@ EPG列表，含7天回看，1天预告，每天更新至少两次。
 - 整合以下数据源
     - http://epg.51zmt.top:8000
     - https://gitee.com/Black_crow/xmlgz
+    - https://epg.pw

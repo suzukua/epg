@@ -1,7 +1,8 @@
 {
     "xml_urls": [
         "http://epg.51zmt.top:8000/e.xml.gz",
-        "https://gitee.com/Black_crow/xmlgz/raw/master/all.xml.gz"
+        "https://gitee.com/Black_crow/xmlgz/raw/master/all.xml.gz",
+        "https://epg.pw/xmltv/epg_CN.xml.gz"
     ],
     "days_to_keep": 7,
     "gen_xml": 1,
