@@ -1,7 +1,7 @@
 name: IPTV EPG Build
 
 on:
-  workflow_dispatch:
+#  workflow_dispatch:
   #schedule:
     # - cron: "7 9,22 * * *"
 

@@ -53,6 +53,8 @@ jobs:
           cp -r ./_site/* ./epg/
           cd epg
           ls -la
+          git config user.name suzukua_bot
+          git config user.email suzukua_bot
           git status
           git add .
           git commit -am "Automated build"
