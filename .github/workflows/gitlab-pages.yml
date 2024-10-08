@@ -50,7 +50,7 @@ jobs:
           ls -la
           git clone https://${{ secrets.GITLAB_USERNAME }}:${{ secrets.GITLAB_TOKEN }}@gitlab.com/suzukua/epg.git
           ls -la
-          cp ./_site/* ./epg
+          cp -r ./_site/* ./epg/
           cd epg
           ls -la
           git status
