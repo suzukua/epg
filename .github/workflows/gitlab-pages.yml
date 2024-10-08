@@ -44,7 +44,7 @@ jobs:
           sudo sed -i 's/\/href=\"\/$REPO_NAME/href=\"/g' ./_site/index.html
 
 #          cat ./_site/index.html
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy to Gitlab Pages
         run: |
           rm ./git -rf
           ls -la
