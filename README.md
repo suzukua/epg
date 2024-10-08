@@ -3,11 +3,11 @@
 
 EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
 
-[地址1(gz压缩)](http://epg.zsdc.eu.org/t.xml.gz): 
+[地址1(gz压缩)](https://epg.zsdc.eu.org/t.xml.gz): 
 
     https://epg.zsdc.eu.org/t.xml.gz
 
-[地址2](http://epg.zsdc.eu.org/t.xml): 
+[地址2](https://epg.zsdc.eu.org/t.xml): 
 
     https://epg.zsdc.eu.org/t.xml
 
