@@ -4,7 +4,7 @@ name: Deploy Jekyll with cloudflare Pages dependencies preinstalled
 on:
   # Runs on pushes targeting the default branch
   push:
-#    branches: ["main"]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -42,12 +42,19 @@ jobs:
           pwd
           ls -la
           sudo sed -i 's/\/href=\"\/$REPO_NAME/href=\"/g' ./_site/index.html
+
 #          cat ./_site/index.html
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: epg
-          directory: _site
-          wranglerVersion: '3'
+        run: |
+          rm ./git -rf
+          ls -la
+          git clone git@gitlab.com:suzukua/epg.git
+          ls -la
+          cp ./site/* ./epg
+          cd epg
+          ls -la
+          git status
+          git add .
+          git commit -am "Automated build"
+          git push https://${GITLAB_TOKEN}@gitlab.com/suzukua/epg.git HEAD:main
+        
