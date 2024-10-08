@@ -1,5 +1,5 @@
-# Sample workflow for building and deploying a Jekyll site to Cloudflare Pages
-name: Deploy Jekyll with cloudflare Pages dependencies preinstalled
+# Sample workflow for building and deploying a Jekyll site to Gitlab Pages
+name: Deploy Jekyll with Gitlab Pages dependencies preinstalled
 
 on:
   # Runs on pushes targeting the default branch
