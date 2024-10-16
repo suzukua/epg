@@ -22,5 +22,6 @@ EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
 基于项目[TakcC](https://github.com/TakcC/PHP-EPG-Docker-Server)的项目生成。
 - 整合以下数据源
     - http://epg.51zmt.top:8000
-    - https://gitee.com/Black_crow/xmlgz
     - https://epg.pw
+    - https://e.erw.cc
+    - https://epg.mxdyeah.top
