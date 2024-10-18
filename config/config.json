@@ -20,7 +20,6 @@
         "CCTV4美洲": "CCTV4AME",
         "CCTV4欧洲": "CCTV4EUO",
         "CGTN纪录": "CGTN Documentary, CGTN档案, CGTN记录",
-        "[CCTV5plus, CCTV5PLUS]": "CCTV5+",
         "CCTV$1": "regex:\/^CCTV[-\\s]*(\\d{1,2}(\\s*P(LUS)?|[K\\+])?)(?![\\s-]*(美洲|欧洲)).*\/i"
     }
 }
