@@ -7,7 +7,7 @@
     ],
     "days_to_keep": 7,
     "gen_xml": 1,
-    "include_future_only": 0,
+    "include_future_only": 1,
     "ret_default": 1,
     "gen_list_enable": 1,
     "db_type": "sqlite",
