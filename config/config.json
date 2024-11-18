@@ -1,6 +1,6 @@
 {
     "xml_urls": [
-        "http://epg.51zmt.top:8000/e.xml",
+        "http://epg.51zmt.top:8000/e.xml.gz",
         "https://epg.pw/xmltv/epg_CN.xml.gz",
         "https://e.erw.cc/all.xml.gz",
         "https://epg.mxdyeah.top/download/all-mxdyeah.xml.gz"
