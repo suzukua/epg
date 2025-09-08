@@ -44,10 +44,9 @@ jobs:
           sudo sed -i 's/\/href=\"\/$REPO_NAME/href=\"/g' ./_site/index.html
 #          cat ./_site/index.html
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: epg
-          directory: _site
-          wranglerVersion: '3'
+          command: pages deploy _site --project-name=epg
