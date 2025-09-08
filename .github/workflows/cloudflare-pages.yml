@@ -42,7 +42,7 @@ jobs:
           pwd
           ls -la
           sudo sed -i 's/\/href=\"\/$REPO_NAME/href=\"/g' ./_site/index.html
-          sudo sed -i 's|https://github.com/suzukua/epg/edit/hidden/README.md|$REPO_NAME|g' ./_site/index.html
+          sudo sed -i 's|https://github.com/suzukua/epg/edit/hidden/README.md|https://github.com/suzukua/epg|g' ./_site/index.html
 #          cat ./_site/index.html
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
