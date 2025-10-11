@@ -3,7 +3,8 @@
         "http://epg.51zmt.top:8000/e.xml",
         "https://epg.pw/xmltv/epg_CN.xml.gz",
         "https://e.erw.cc/all.xml.gz",
-        "https://epg.mxdyeah.top/download/all-mxdyeah.xml.gz"
+        "https://baoer.org.cn/e.xml.gz",
+        "https://baoer.org.cn/x.xml.gz"
     ],
     "days_to_keep": 7,
     "gen_xml": 1,
