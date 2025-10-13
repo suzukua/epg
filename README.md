@@ -17,6 +17,10 @@ EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
 
     https://iptv.zsdc.eu.org
 
+[华硕路由单线复用、IPTV融合](https://github.com/suzukua/asus-router-shell)
+
+    https://github.com/suzukua/asus-router-shell
+
 ###### 数据错误？有问题？更新不及时？[联系我](https://github.com/suzukua/epg/issues)
 
 基于项目[iptv-tool](https://github.com/taksssss/iptv-tool)的项目生成。
