@@ -1,4 +1,4 @@
-### IPTV EPG / IPTV 电子节目单 
+### IPTV EPG / IPTV电子节目单 
 ![badge](https://cnb.cool/zdcorg/epg/-/badge/git/latest/ci/git-clone-yyds)
 
 EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
@@ -13,7 +13,7 @@ EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
 
 #### 更新时间：2025-10-13 06:07:21 共 132 条频道信息，现在的EPG文件中提供节目共 41217 条
 
-[成都电信IPTV(点击直达)](https://iptv.zsdc.eu.org)，支持KODI、APTV。支持回看、时移。
+[IPTV直播源](https://iptv.zsdc.eu.org)，支持KODI、APTV。支持回看、时移。
 
     https://iptv.zsdc.eu.org
 
