@@ -1,5 +1,5 @@
 ### IPTV EPG / IPTV电子节目单 
-![badge](https://cnb.cool/zdcorg/epg/-/badge/git/latest/ci/git-clone-yyds)
+![badge](https://github.com/suzukua/epg/actions/workflows/cloudflare-pages.yml/badge.svg)
 
 EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
 
