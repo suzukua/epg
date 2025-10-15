@@ -4,7 +4,8 @@
         "https://epg.pw/xmltv/epg_CN.xml.gz",
         "https://e.erw.cc/all.xml.gz",
         "https://baoer.org.cn/e.xml.gz",
-        "https://baoer.org.cn/x.xml.gz"
+        "https://baoer.org.cn/x.xml.gz",
+        "https://github.com/mytv-android/myEPG/raw/refs/heads/master/output/epg.gz"
     ],
     "days_to_keep": 7,
     "gen_xml": 1,
