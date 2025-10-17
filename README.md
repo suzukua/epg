@@ -1,7 +1,9 @@
-### IPTV EPG / IPTV电子节目单 
+## IPTV EPG / IPTV电子节目单 
+### EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
+
 ![badge](https://github.com/suzukua/epg/actions/workflows/cloudflare-pages.yml/badge.svg)
 
-EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
+#### 更新时间：2025-10-17 11:14:58 共 118 条频道信息，现在的EPG文件中提供节目共 32680 条
 
 [地址1(gz压缩)](https://epg.zsdc.eu.org/t.xml.gz): 
 
@@ -11,7 +13,6 @@ EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
 
     https://epg.zsdc.eu.org/t.xml
 
-#### 更新时间：2025-10-17 11:14:58 共 118 条频道信息，现在的EPG文件中提供节目共 32680 条
 
 [IPTV直播源](https://iptv.zsdc.eu.org)，支持KODI、APTV。支持回看、时移。
 
