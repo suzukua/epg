@@ -1,6 +1,7 @@
 {
     "xml_urls": [
-        "http://epg.51zmt.top:8000/e.xml",
+        "http://epg.51zmt.top:8000/e.xml.gz",
+        "http://epg.51zmt.top:8000/e1.xml.gz",
         "https://epg.pw/xmltv/epg_CN.xml.gz",
         "https://e.erw.cc/all.xml.gz",
         "https://baoer.org.cn/e.xml.gz",
