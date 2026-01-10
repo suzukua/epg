@@ -19,6 +19,7 @@
     "interval_time": 0,
     "manage_password": "",
     "channel_bind_epg": [],
+    "access_log_enable": 0,
     "channel_mappings": {
         "CCTV4美洲": "CCTV4AME",
         "CCTV4欧洲": "CCTV4EUO",
