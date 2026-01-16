@@ -4,7 +4,7 @@
 
 ![badge](https://github.com/suzukua/epg/actions/workflows/cloudflare-pages.yml/badge.svg)
 
-#### 更新时间：2026-01-16 22:07:36 共 119 条频道信息，现在的EPG文件中提供节目共 26963 条
+#### 更新时间：2026-01-17 01:07:29 共 119 条频道信息，现在的EPG文件中提供节目共 27544 条
 
 [地址1(gz压缩)](https://epg.zsdc.eu.org/t.xml.gz): 
 
