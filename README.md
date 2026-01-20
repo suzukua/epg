@@ -1,28 +1,67 @@
-## IPTV EPG / IPTV电子节目单 
+# IPTV EPG / IPTV电子节目单
 
-### EPG列表，含7天回看(包当天)，5天预告，每天更新至少两次。
+[![Build Status](https://github.com/suzukua/epg/actions/workflows/cloudflare-pages.yml/badge.svg)](https://github.com/suzukua/epg/actions/workflows/cloudflare-pages.yml)
 
-![badge](https://github.com/suzukua/epg/actions/workflows/cloudflare-pages.yml/badge.svg)
+## 📺 简介
 
-#### 更新时间：2026-01-20 10:07:29 共 119 条频道信息，现在的EPG文件中提供节目共 28605 条
+提供高质量的IPTV电子节目单（EPG）数据，每天自动更新至少两次。
 
-[地址1(gz压缩)](https://epg.zsdc.eu.org/t.xml.gz): 
+### ✨ 特性
 
-    https://epg.zsdc.eu.org/t.xml.gz
+- 📅 **7天回看**（包含当天）
+- 🔮 **5天预告**
+- 🔄 **每日更新** 至少两次
+- 📊 **119** 个频道
+- 📝 **28,605** 条节目信息
 
-[地址2](https://epg.zsdc.eu.org/t.xml): 
+> 最后更新时间：2026-01-20 10:07:29
 
-    https://epg.zsdc.eu.org/t.xml
+## 📥 EPG源地址
 
+### 方式一：压缩格式（推荐）
 
-[IPTV直播源](https://iptv.zsdc.eu.org)，支持KODI、APTV。支持回看、时移。
+```
+https://epg.zsdc.eu.org/t.xml.gz
+```
 
-    https://iptv.zsdc.eu.org
+**推荐使用**：文件体积小，加载更快
 
-[华硕路由单线复用、IPTV融合](https://github.com/suzukua/asus-router-shell)
+### 方式二：XML格式
 
-    https://github.com/suzukua/asus-router-shell
+```
+https://epg.zsdc.eu.org/t.xml
+```
 
-###### 数据错误？有问题？更新不及时？[联系我](https://github.com/suzukua/epg/issues)
+## 🔗 相关项目
 
-基于项目[iptv-tool](https://github.com/taksssss/iptv-tool)的项目生成。
+### IPTV直播源
+
+支持 KODI、APTV，提供回看和时移功能。
+
+```
+https://iptv.zsdc.eu.org
+```
+
+**访问地址**：[https://iptv.zsdc.eu.org](https://iptv.zsdc.eu.org)
+
+### 华硕路由单线复用、IPTV融合
+
+华硕路由器 IPTV 单线复用解决方案。
+
+**项目地址**：[https://github.com/suzukua/asus-router-shell](https://github.com/suzukua/asus-router-shell)
+
+## 🙏 致谢
+
+本项目基于 [iptv-tool](https://github.com/taksssss/iptv-tool) 生成。
+
+## 💬 反馈与支持
+
+如遇到以下问题，欢迎[提交 Issue](https://github.com/suzukua/epg/issues)：
+
+- 📌 数据错误
+- ❓ 使用问题
+- ⏰ 更新不及时
+
+## 📄 许可证
+
+请查看 [LICENSE](LICENSE) 文件了解详情。
