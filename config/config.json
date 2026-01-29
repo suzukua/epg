@@ -2,6 +2,7 @@
     "xml_urls": [
         "http://epg.51zmt.top:8000/e.xml.gz",
         "http://epg.51zmt.top:8000/e1.xml.gz",
+        "https://epg.mb6.top/heiptv.xml",
         "https://e.erw.cc/all.xml.gz",
         "https://baoer.org.cn/e.xml.gz",
         "https://baoer.org.cn/x.xml.gz",
