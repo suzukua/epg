@@ -65,3 +65,6 @@ https://iptv.zsdc.eu.org
 ## 📄 许可证
 
 请查看 [LICENSE](LICENSE) 文件了解详情。
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/suzukua/epg.svg?variant=adaptive)](https://github.com/suzukua/epg)
