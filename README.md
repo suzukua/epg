@@ -68,4 +68,4 @@ https://iptv.zsdc.eu.org
 
 ## Star History
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=suzukua/epg)](https://star-history.dera.page/#suzukua/epg)
+[![Star History Chart](https://star-history.dera.page/svg?repos=suzukua/epg)](https://github.com/suzukua/epg)
